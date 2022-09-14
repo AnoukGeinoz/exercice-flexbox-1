@@ -45,3 +45,44 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+body {
+  color: var(--white);
+}
+
+.box {
+  padding: 40px;
+  background-color: var(--dark-blue);
+}
+
+.section {
+  background-color: var(--green);
+}
+
+.section-1 {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.section-2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.section-3 {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+
+.section-4 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
